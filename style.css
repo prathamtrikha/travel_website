@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); /*Brand Logo Font*/
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap'); /*Nav Items Font*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap'); /*Carousel Heading Text*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); /*Carousel Paragraph Text*/
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*NavBar Section CSS Starts*/
+.brand-logo{
+    font-family: 'Pacifico', cursive;
+    color: rgb(250, 121, 0) ;
+}
+/*NavBar Section CSS Ends*/
+
+/*Home Section CSS Starts*/
+.right.hide-on-med-and-down , .sidenav  {
+    font-family: 'Allerta', sans-serif;
+}
+
+@media screen and (max-width:470px) {
+    #home-section-heading{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    #home-section-heading{
+        font-size: 1rem;
+    }
+}
+
+.carousel.carousel-slider img{
+    background-size: cover;
+}
+
+#carousel-paragraph {
+    font-family: 'Caveat', cursive;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+}
+
+.waves-effect.waves-light.btn-large {
+    background: rgb(30, 108, 253);
+}
+
+
+/*Home Section CSS Ends*/
+
+/*About Us Section Starts*/
+#about-us-image {
+    width: 50rem;
+}
+/*About Us Section Ends*/
+
+/*Gallery Section CSS Starts*/
+
+.responsive-img.materialboxed {
+    height: 300px;
+    margin: 5px 0px;
+}
+
+/*Gallery Section CSS Ends*/
+
